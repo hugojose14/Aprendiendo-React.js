@@ -1,11 +1,11 @@
 import React from "react";
 
-const Header = () => {
+const Footer = ({ fecha }) => {
   return (
     <footer>
-      <p>Todos los derechos reservados &copy;</p>
+      <p>Todos los derechos reservados &copy; {fecha}</p>
     </footer>
   );
 };
 
-export default Header;
+export default Footer;

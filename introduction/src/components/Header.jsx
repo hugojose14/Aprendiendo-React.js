@@ -1,7 +1,8 @@
 import React from "react";
 
-const Header = () => {
-  return <h1>Tienda virtual</h1>;
+const Header = ({ titulo }) => {
+  console.log({ titulo });
+  return <h1>{titulo}</h1>;
 };
 
 export default Header;
