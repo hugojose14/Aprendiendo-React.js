@@ -142,7 +142,29 @@ guardarEstudiante = Es la función que modifica el state
     - `useCallback`
     - `useMemo`
 
-   
+## State (useState) 
 
+State: En resumidas cuentas vamos a colocar todo lo que reacciona a ciertas acciones de los usuarios. 
+ - `Ejemplo:`
+    - `Datos de un Formulario que lea los datos`
+    - `Un carrito de compras`
+    - `Cuando registramos el número de personas que acceden a la pagina`
+    
+#### 3. Implementando los HOOKS (useState)
+
+```javascript
+import React, { Fragment, useState } from "react";
+
+  //Lista de productos
+  //El primero va a ser el state y el segundo una función que me ayuda rescribirlo
+  //Dentro del useState los valores iniciales
+  const [products, guardarProducts] = useState([
+    { id: 1, nombre: "Camisa JS", precio: 150 },
+    { id: 2, nombre: "Camisa Python", precio: 0 },
+    { id: 3, nombre: "Camisa Go", precio: 80 },
+    { id: 4, nombre: "Camisa Java", precio: 100 },
+  ]);
+
+```
 
 
