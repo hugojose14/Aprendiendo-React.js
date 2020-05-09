@@ -25,9 +25,9 @@ const Footer = ({ fecha }) => {
 
 export default Footer;
 
-```javascript
+```
 
-## Props 
+## Props
 Me permiten enviar datos desde el componente padre a los componentes hijos .
 
 ```javascript
