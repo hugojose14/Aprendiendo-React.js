@@ -130,7 +130,20 @@ guardarEstudiante = Es la función que modifica el state
 
 ##### context:  Un comonente de React que se suscribe a cambios de contexto. Esto le permite suscribirse a un contexto dentro de un componente de función.
 
+#### 3. Los hooks se dividen en dos grupos 
 
+# 1. Básicos 
+
+UseState
+useEffect
+
+# 2. Avanzadas
+
+useContext
+useRef
+useReducer
+useCallback
+useMemo
 
 
 
