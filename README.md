@@ -100,7 +100,7 @@ export default Footer;
 
 ```
 
-##React Hooks 
+## React Hooks 
 
 Los Hooks son una nueva API de la librería de React que nos permite tener estado, y otras características de React, en los componentes creados con una function. 
 Me permiten actualizar el State sin necesidad de crear un Class Componente, en resumidas cuentas me permite manejar el estado de los componentes. 
@@ -124,13 +124,11 @@ guardarEstudiante = Es la función que modifica el state
 - A: `Menor cantidad de código`
 - B: `Mayor facilidad para implementar reducers, administrar el state y  context`
 
-Nota: 
+##### Reducers: Las acciones describen que algo pasó, pero no especifican cómo cambió el estado de la aplicación en respuesta. Esto es trabajo de los reducers.
 
-Reducers: Las acciones describen que algo pasó, pero no especifican cómo cambió el estado de la aplicación en respuesta. Esto es trabajo de los reducers.
+##### state: el cambio del estado de la aplicación. 
 
-state: el cambio del estado de la aplicación. 
-
-context:  Un comonente de React que se suscribe a cambios de contexto. Esto le permite suscribirse a un contexto dentro de un componente de función.
+##### context:  Un comonente de React que se suscribe a cambios de contexto. Esto le permite suscribirse a un contexto dentro de un componente de función.
 
 
 
