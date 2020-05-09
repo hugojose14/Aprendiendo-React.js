@@ -132,18 +132,17 @@ guardarEstudiante = Es la función que modifica el state
 
 #### 3. Los hooks se dividen en dos grupos 
 
-# 1. Básicos 
+- `Básico`
+    - `UseState`
+    - `useEffect`
+- `Avanzados`
+    - `useContext`
+    - `useRef`
+    - `useReducer`
+    - `useCallback`
+    - `useMemo`
 
-UseState
-useEffect
-
-# 2. Avanzadas
-
-useContext
-useRef
-useReducer
-useCallback
-useMemo
+   
 
 
 
