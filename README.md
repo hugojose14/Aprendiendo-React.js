@@ -99,3 +99,22 @@ const Footer = ({ fecha }) => {
 export default Footer;
 
 ```
+
+##React Hooks 
+Me permiten actualizar el State sin necesidad de crear un Class Componente, en resumidas cuentas me permite manejar el estado de los componentes. 
+
+###### 1. USESTATE
+
+Hooks vienen con una función llamada useState.
+
+```javascript
+import React, {useState} from 'react';
+```
+Esta función al extraer sus valores consta de 2 partes: 
+```javascript
+const [clientes, guardarCliente] = useState([]);
+```
+
+
+
+
