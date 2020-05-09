@@ -124,7 +124,7 @@ guardarEstudiante = Es la función que modifica el state
 - A: `Menor cantidad de código`
 - B: `Mayor facilidad para implementar reducers, administrar el state y  context`
 
-##### Reducers: Las acciones describen que algo pasó, pero no especifican cómo cambió el estado de la aplicación en respuesta. Esto es trabajo de los reducers.
+##### reducers: Las acciones describen que algo pasó, pero no especifican cómo cambió el estado de la aplicación en respuesta. Esto es trabajo de los reducers.
 
 ##### state: el cambio del estado de la aplicación. 
 
