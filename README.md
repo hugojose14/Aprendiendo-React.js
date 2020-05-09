@@ -1,8 +1,31 @@
 # Curso de React.js 
 Aprendiendo React desde lo más básico hasta experto.
 
-## Comenzando 🚀
+## Comenzando a crear una aplicación en React.js 🚀
+
 npx create-react-app myapp
+
+## Creando un componente 
+
+###### 1. Crear una carpeta dentro de src y dentro agregar mis componentes
+
+Dentro de la carpeta src agregar todos los componentes
+
+```javascript
+
+import React from "react";
+
+const Footer = ({ fecha }) => {
+  return (
+    <footer>
+      <p>Todos los derechos reservados &copy; {fecha}</p>
+    </footer>
+  );
+};
+
+export default Footer;
+
+```javascript
 
 ## Props 
 Me permiten enviar datos desde el componente padre a los componentes hijos .
