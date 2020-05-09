@@ -1,7 +1,7 @@
 import React from "react";
 
-function Header() {
-  return <h1>Desde el header</h1>;
-}
+const Header = () => {
+  return <h1>Tienda virtual</h1>;
+};
 
 export default Header;
