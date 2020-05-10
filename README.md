@@ -8,6 +8,27 @@ Una biblioteca de JavaScript para construir interfaces de usuario
 
 npx create-react-app myapp
 
+## Destructuración de objetos y arrays
+
+La destructuración nos permite desempacar propiedades sea de un objeto o elementos de un array.
+
+##### 1. Ejemplo destructurando un objeto
+
+```javascript
+//Creando un objeto de tipo persona
+const persona = {
+  nombre: 'Hugo',
+  apellido: 'Pérez',
+  edad:21,
+  sexo:'M'
+}
+
+//Desempaco las propiedades de ese objeto, importante colocar {} y dentro las propieades
+const {nombre,apellido,edad,sexo} = persona;
+
+//Imprimiendo con templates literals y 
+console.log(`${nombre} ${apellido} ${edad} ${sexo} `;
+```
 ## Creando un componente 
 
 ###### 1. Crear una carpeta dentro de src y dentro agregar mis componentes
