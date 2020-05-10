@@ -1,4 +1,4 @@
-# hugojose14 React - JavaScript Style Guide() {
+# hugojose14 React - JavaScript Medium Guide() {
 
 ## ¿Qué es React.js?
 Una biblioteca de JavaScript para construir interfaces de usuario
