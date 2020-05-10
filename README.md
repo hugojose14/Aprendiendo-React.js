@@ -67,6 +67,18 @@ let nombreFuncion = (argumento1,argumento2,argumentoN)=>{
 //Llamado de la función
 nombreFunction(argumento1,argumento2,argumentoN);
 ```
+#### 5. Operador de propagación (spread operator)
+
+```javascript
+
+let array1 = [0, 1, 2];
+let array2 = [3, 4, 5];
+arr1.push(...arr2);
+
+[a, b, ...iterableObj] = [1, 2, 3, 4, 5];
+
+```
+
 
 ## Creando un componente 
 
