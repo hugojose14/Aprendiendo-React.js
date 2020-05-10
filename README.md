@@ -149,6 +149,56 @@ async function getProcessedData(url) {
 
 ```
 
+##### 9. método Filter (que nos permite filtrar elementos que concidan con una condición en especifico)
+
+```javascript
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter(word => word.length > 6);
+
+console.log(result);
+// expected output: Array ["exuberant", "destruction", "present"]
+```
+
+#### 10. Map (El método map() crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos.)
+
+```javascript
+/*
+Sintaxis:
+const nuevo_array = arr.map(function callback(currentValue, index, array) {
+    // Elemento devuelto de nuevo_array
+}[, thisArg])
+*/
+
+const numbers = [1, 5, 10, 15];
+const doubles = numbers.map(function(x) {
+   return x * 2;
+});
+// doubles is now [2, 10, 20, 30]
+// numbers is still [1, 5, 10, 15]
+
+const numbers = [1, 4, 9];
+const roots = numbers.map(function(num) {
+    return Math.sqrt(num);
+});
+// roots is now [1, 2, 3]
+// numbers is still [1, 4, 9]
+```
+
+
+#### 11. forEach nos permite iterar sobre Arrays
+
+```javascript
+
+const array1 = ['a', 'b', 'c'];
+array1.forEach(element => console.log(element));
+
+// expected output: "a"
+// expected output: "b"
+// expected output: "c"
+
+```
+
 ## Creando un componente 
 
 ###### 1. Crear una carpeta dentro de src y dentro agregar mis componentes
