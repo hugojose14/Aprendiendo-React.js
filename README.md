@@ -413,3 +413,16 @@ function ActionLink() {
   );
 }
 ```
+
+## Agregando Estilos CSS u librerías tales como: Bootstrap, bulma, SASS, materialize
+
+#### 1. Utilizando el CDN de bootstrap 
+
+  - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+  
+-Aregar el CDN al HTML 
+```html
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+```
+Con esto ya podemos utilizar las clases de bootstrap en cualquier parte del código...
+
