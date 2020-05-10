@@ -344,6 +344,12 @@ export default Producto;
 ## Eventos
 
 ```javascript
+<button onClick={activateLasers}>
+  Activate Lasers
+</button>
+```
+
+```javascript
 function ActionLink() {
   function handleClick(e) {
     e.preventDefault();
