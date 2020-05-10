@@ -59,12 +59,14 @@ console.log(x,y,z);
 ```
 #### 4. Funciones de flecha 
 
+```javascript
 let nombreFuncion = (argumento1,argumento2,argumentoN)=>{
   //Lógica 
 }
 
 //Llamado de la función
 nombreFunction(argumento1,argumento2,argumentoN);
+```
 
 ## Creando un componente 
 
