@@ -1,5 +1,4 @@
-## Curso de React.js 
-Aprendiendo React desde lo más básico hasta experto.
+# hugojose14 React - JavaScript Style Guide() {
 
 ## ¿Qué es React.js?
 Una biblioteca de JavaScript para construir interfaces de usuario
@@ -426,3 +425,4 @@ function ActionLink() {
 ```
 Con esto ya podemos utilizar las clases de bootstrap en cualquier parte del código...
 
+#};
