@@ -308,4 +308,35 @@ import React, { Fragment, useState } from "react";
 
 ```
 
+#### 4. Enviando el objeto de productos desde el padre al hijo (En este caso el componente de productos) 
 
+```javascript
+ {products.map((producto) => (
+       <Producto producto={producto} key={producto.id} />
+ ))}
+```
+
+#### 5. Estructura del componente de Productos
+
+```javascript
+import React from "react";
+
+const Producto = ({ producto }) => {
+  const { id, precio, nombre } = producto;
+  return (
+    <div className="container">
+      <table className="table">
+        <tbody>
+          <tr>
+            <th>{id}</th>
+            <td>{nombre}</td>
+            <td>{precio}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+export default Producto;
+```
