@@ -9,7 +9,7 @@ function App() {
   //Dentro del useState los valores iniciales
   const [products, guardarProducts] = useState([
     { id: 1, nombre: "Camisa JS", precio: 150 },
-    { id: 2, nombre: "Camisa Python", precio: 0 },
+    { id: 2, nombre: "Camisa Ruby", precio: 0 },
     { id: 3, nombre: "Camisa Go", precio: 80 },
     { id: 4, nombre: "Camisa Java", precio: 100 },
   ]);
