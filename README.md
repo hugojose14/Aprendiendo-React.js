@@ -43,6 +43,24 @@ const persona = {
 const {padre:{hijo}} = persona;
 console.log(`${hijo}`);
 ```
+#### 3. Destructurando un arreglo en JavaScript
+
+```javascript 
+//Una arreglo de 5 elementos
+const arreglo = [1,2,3,4,5];
+
+//Aquí desenpaquetamos el arreglo y le asignamos los dos primeros elementos a x,y
+//Aquí nos saltamos el 3 y le asignamos z el valor de 4 
+let[x,y,,z] = arreglo;
+
+//1,2,4
+console.log(x,y,z);
+
+```
+#### 4. Funciones de flecha 
+
+
+
 
 ## Creando un componente 
 
