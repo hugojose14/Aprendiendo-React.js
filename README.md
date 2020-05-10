@@ -8,7 +8,7 @@ Una biblioteca de JavaScript para construir interfaces de usuario
 
 npx create-react-app myapp
 
-## Destructuración de objetos y arrays
+## Repaso de JavaScript intermedio
 
 La destructuración nos permite desempacar propiedades sea de un objeto o elementos de un array.
 
