@@ -95,6 +95,7 @@ arr1.push(...arr2);
 
 ```javascript
 /*
+
 export { name1, name2, …, nameN };
 export { variable1 as name1, variable2 as name2, …, nameN };
 export let name1, name2, …, nameN; // también var
@@ -113,6 +114,39 @@ export { import1 as name1, import2 as name2, …, nameN } from …;
 export { default } from …;
 
 */
+```
+
+## 8. Async/await
+
+
+```javascript
+/*
+
+async function name([param[, param[, ... param]]]) {
+   statements
+}
+
+name
+El nombre de la función.
+
+param
+El nombre de un argumento que se debe pasar a la función.
+
+statements
+Las declaraciones que conforman el cuerpo de la función.
+
+*/
+
+async function getProcessedData(url) {
+  let v;
+  try {
+    v = await downloadData(url); 
+  } catch(e) {
+    v = await downloadFallbackData(url);
+  }
+  return processDataInWorker(v);
+}
+
 ```
 
 ## Creando un componente 
