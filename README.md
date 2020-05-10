@@ -77,6 +77,43 @@ arr1.push(...arr2);
 
 ```
 
+#### 6. Template String
+
+```javascript
+
+//`cadena de texto`
+
+//`línea 1 de la cadena de texto
+// línea 2 de la cadena de texto`
+
+//`cadena de texto ${expresión} texto`
+
+//tag `cadena de texto ${expresión} texto`
+
+```
+#### 7. export
+
+```javascript
+/*
+export { name1, name2, …, nameN };
+export { variable1 as name1, variable2 as name2, …, nameN };
+export let name1, name2, …, nameN; // también var
+export let name1 = …, name2 = …, …, nameN; // también var, const
+export function FunctionName(){...}
+export class ClassName {...}
+
+export default expression;
+export default function (…) { … } // también class, function*
+export default function name1(…) { … } // también class, function*
+export { name1 as default, … };
+
+export * from …;
+export { name1, name2, …, nameN } from …;
+export { import1 as name1, import2 as name2, …, nameN } from …;
+export { default } from …;
+
+*/
+```
 
 ## Creando un componente 
 
