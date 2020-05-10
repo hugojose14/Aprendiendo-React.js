@@ -29,6 +29,21 @@ const {nombre,apellido,edad,sexo} = persona;
 //Imprimiendo con templates literals y 
 console.log(`${nombre} ${apellido} ${edad} ${sexo} `;
 ```
+#### 2. Destructurando un objeto anidado
+
+```javascript
+const persona = {
+  
+  nombre:'Hugo',
+  apellido:'Pérez',
+  padre:{    
+    hijo:"20
+  }
+}
+const {padre:{hijo}} = persona;
+console.log(`${hijo}`);
+```
+
 ## Creando un componente 
 
 ###### 1. Crear una carpeta dentro de src y dentro agregar mis componentes
