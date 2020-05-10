@@ -340,3 +340,6 @@ const Producto = ({ producto }) => {
 
 export default Producto;
 ```
+
+## Eventos
+
