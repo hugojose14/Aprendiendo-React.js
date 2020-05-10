@@ -1,12 +1,12 @@
 import React from "react";
 
-const Producto = ({ producto }) => {
+const Producto = ({ producto, carrito, agregarProducto, products }) => {
   const { id, precio, nombre } = producto;
-
   //Agregar producto al carrito
 
   const selectProduct = (id) => {
-    console.log("Comprando producto", id);
+    const producto = products.filter((pro) => pro.id === id);
+    console.log(producto[0]);
   };
 
   //Se coloca la funcion de adentro que se quiere llamar cada vez que demos click
