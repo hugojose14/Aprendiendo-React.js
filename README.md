@@ -10,8 +10,6 @@ npx create-react-app myapp
 
 ## Repaso de JavaScript intermedio
 
-La destructuración nos permite desempacar propiedades sea de un objeto o elementos de un array.
-
 ##### 1. Ejemplo destructurando un objeto
 
 ```javascript
